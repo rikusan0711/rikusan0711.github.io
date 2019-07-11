@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href= "css/HTMLTest.css">
+        <link rel="stylesheet" type="text/css" href= "css/background.css">
+        <link rel="stylesheet" type="text/css" href="css/swiper.css">
+    </head>
+
+    <body>
+        
+        <!--背景描画-->
+        <div class="area" >
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        
+            <!--スライドの表示-->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><!--スライド1枚目-->
+                        <div class="fontset1">岩城佳祐のページ</div>
+                        <br>
+                        <div class="fontset2">・ページ概要</div>
+                        <div class="fontset3">
+                                <br>
+                                HTMLの自習のため作られたページ。<br>
+                                HTML、CSS、JavaScriptを理解するために<br>
+                                ・テーブルを使う<br>
+                                ・リンクを張る<br>
+                                ・画像を張る(ペット、旅行の写真など)<br>
+                                ・スタイルシートを使う<br>
+                                ・JavaScriptを使用する。<br>
+                                ・Google Chromeで動作すること<br>
+                                を条件にWebページの作成を行った。
+                        </div>
+                    </div>
+                    <div class="swiper-slide"><!--スライド2枚目-->
+                        <div class="fontset1">自己紹介</div>
+                        <div class="fontset2">・名前</div>
+                        <div class="fontset3">岩城　佳祐</div>
+                        <div class="fontset2">・生年月日</div>
+                        <div class="fontset3">1995年11月11日</div>
+                        <div class="fontset2">・入社年月日</div>
+                        <div class="fontset3">2019年 7月 1日</div>
+                        <div class="fontset2">・なぜIT業界を選んだのか</div>
+                        <div class="fontset3">
+                            中学生の時に情報の授業で簡単なアルゴリズムに触れたのがきっかけ。<br>
+                            高校でプログラミングを勉強し、自分の知識を活かした仕事がしたいと考えたから。
+                        </div>
+                        <div class="fontset2">・出身校</div>
+                        <div class="fontset3">宮崎県立宮崎工業高校</div>
+                        <div class="fontset2">・趣味の話</div>
+                        <div class="fontset3">
+                            ギター、ベースを主に楽器が趣味である。<br>
+                            EDMにも興味がありFuture Bass等の作曲もしている。
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><!--スライド3枚目-->
+                        <div class="imgset1"><a href="https://www.cpara.co.jp/"><img src="imgs/cparalogo.png"></a></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="closeimg"><!--閉じるボタン-->
+                <a href="#">
+                        <img onclick="window.close()">
+                </a>
+            </div>
+            
+            <div class="chanegcolor1"><img ></div>
+            <div class="chanegcolor2"><img ></div>
+            <div class="chanegcolor3"><img ></div>
+
+        </div>
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/swiper.js"></script>
+        <script type="text/javascript" src="js/HTMLTest.js"></script>
+        <script>
+            var mySwiper = new Swiper('.swiper-container', {
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                pagination: {  //ページネーション設定
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+                loop: true,
+            });
+        </script>
+    </body>
+</html>

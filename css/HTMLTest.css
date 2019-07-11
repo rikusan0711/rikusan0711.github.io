@@ -1,0 +1,101 @@
+/*ページ設定*/
+body{
+    margin:0px;
+    overflow: hidden;
+}
+/*フォントの設定*/
+.fontset1{
+    font-size: 52px;
+    color: #FFFAF0;
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 100px;
+    line-height: 1;
+}
+.fontset2{
+    font-size: 38px;
+    color: #FFFAF0;
+    text-align: left;
+    margin-left: 220px;
+    line-height: 1;
+}
+.fontset3{
+    font-size: 25px;
+    color: #FFFAF0;
+    text-align: left;
+    margin-left: 280px;
+    line-height: 1.5;
+}
+.fontset4{
+    font-size: 20px;
+    color: #FFFAF0;
+}
+.imgset1{
+    text-align: center;
+    margin-top: 30vh;
+}
+/*閉じるボタンの設定*/
+.closeimg{
+    position: absolute;
+    width:43px;
+    height:51px;
+    top :10px;
+    right: 20px;
+    background: url(../imgs/close1.png);
+}
+.closeimg:hover{
+    position: absolute;
+    background: url(../imgs/close2.png);
+    animation-name: close_animate;
+    animation-duration: 1s;
+}
+@keyframes close_animate {
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+/*カラー変更ボタン*/
+.chanegcolor1{
+    position: absolute;
+    width:25px;
+    height:25px;
+    top :5px;
+    left: 5px;
+    background: url(../imgs/backcolor1.png);
+}
+.chanegcolor1:hover{
+    position: absolute;
+    background: url(../imgs/backcolor1S.png);
+}
+
+.chanegcolor2{
+    position: absolute;
+    width:25px;
+    height:25px;
+    top :5px;
+    left: 35px;
+    background: url(../imgs/backcolor2.png);
+}
+.chanegcolor2:hover{
+    position: absolute;
+    background: url(../imgs/backcolor2S.png);
+}
+.chanegcolor3{
+    position: absolute;
+    width:25px;
+    height:25px;
+    top :5px;
+    left: 65px;
+    background: url(../imgs/backcolor3.png);
+}
+.chanegcolor3:hover{
+    position: absolute;
+    background: url(../imgs/backcolor3S.png);
+}
