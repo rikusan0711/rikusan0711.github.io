@@ -12,3 +12,7 @@ $(".chanegcolor3").click(function colorchange3(){
     $('.area').css("background-image","linear-gradient(45deg,rgba(54,0,51,0.9),rgba(11,135,147,0.8)),url(./imgs/umiback.jpg)");
     $('.circles li').css("background-color","#483d8b");
 });
+
+$(".closeimg").click(function closewindow(){
+    window.open('about:blank','_self').close();
+});
