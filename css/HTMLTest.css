@@ -10,7 +10,7 @@ body{
     font-size: 52px;
     color: #FFFAF0;
     text-align: left;
-    margin-left: 15vw;
+    margin-left: 12vw;
     margin-top: 10vh;
     line-height: 1;
 }
@@ -18,14 +18,14 @@ body{
     font-size: 38px;
     color: #FFFAF0;
     text-align: left;
-    margin-left: 20vw;
+    margin-left: 14vw;
     line-height: 1;
 }
 .fontset3{
     font-size: 25px;
     color: #FFFAF0;
     text-align: left;
-    margin-left: 25vw;
+    margin-left: 18vw;
     line-height: 1.5;
 }
 .fontset4{
