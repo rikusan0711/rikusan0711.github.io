@@ -46,3 +46,4 @@ function drop(e) {
         this.parentNode.removeChild(this);
     }, false);
 }
+
